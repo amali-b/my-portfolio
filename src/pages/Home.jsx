@@ -1,3 +1,9 @@
+import { AboutSection } from "../components/AboutSection";
+import { ContactSection } from "../components/ContactSection";
+import { HeroSection } from "../components/HeroSection";
+import { Navbar } from "../components/Navbar";
+import { ProjectSection } from "../components/ProjectSection";
+import { SkillsSection } from "../components/SkillsSection";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
 
@@ -11,8 +17,16 @@ export const Home = () => {
       <StarBackground />
 
       {/* Navbar */}
+      <Navbar />
 
       {/* Main Content --> hero section, about section, skill section, projectc etc. */}
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectSection />
+        <ContactSection />
+      </main>
 
       {/* Footer */}
     </div>
