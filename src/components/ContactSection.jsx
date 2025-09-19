@@ -55,7 +55,7 @@ export const ContactSection = () => {
                   <Mail size={25} className="text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Email</h4>
+                  <h4 className="font-medium flex">Email</h4>
                   <a
                     href="mailto:amalibhuvisara@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -70,7 +70,7 @@ export const ContactSection = () => {
                   <Phone size={25} className="text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Mobile</h4>
+                  <h4 className="font-medium flex">Mobile</h4>
                   <a
                     href="tel:+94713966274"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -85,7 +85,7 @@ export const ContactSection = () => {
                   <MapPin size={25} className="text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Location</h4>
+                  <h4 className="font-medium flex">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Kelaniya, Sri Lanka
                   </a>
