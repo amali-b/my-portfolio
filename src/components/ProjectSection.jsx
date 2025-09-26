@@ -4,7 +4,7 @@ import { ArrowRight, ExternalLink, GithubIcon } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Integrated Restaurant Management System",
+    title: "IRM System",
     description:
       "Designed and developed a comprehensive restaurant management system to streamline daily operations and support data-driven decision-making",
     image: "/projects/Project1.jpg",
@@ -16,7 +16,7 @@ const projects = [
       "Bootstrap",
       "MySQL",
     ],
-    demoUrl: "#",
+    demoUrl: "",
     githubUrl:
       "https://github.com/amali-b/Integrated-Restaurant-Management.git",
   },
@@ -29,6 +29,16 @@ const projects = [
     tags: ["React", "JavaScript", "TailwindCss", "Node.js"],
     demoUrl: "#",
     githubUrl: "https://github.com/amali-b/my-portfolio.git",
+  },
+  {
+    id: 2,
+    title: "Todo-List App",
+    description:
+      "Create a fully functional todo list app with beautiful UI using React and Tailwind.",
+    image: "/projects/Project3.png",
+    tags: ["React", "JavaScript", "TailwindCss", "Node.js"],
+    demoUrl: "https://todo-list-app-sage-iota.vercel.app/",
+    githubUrl: "https://github.com/amali-b/todo-list.git",
   },
 ];
 
@@ -45,7 +55,7 @@ export const ProjectSection = () => {
           with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
