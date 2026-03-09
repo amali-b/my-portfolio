@@ -15,11 +15,11 @@ export const AboutSection = () => {
               Passionate & Self-motivated Full-Stack Developer
             </h3>
             <p className="text-muted-foreground">
-              I'm a final year IT undergraduate at the University of Colombo
-              School of Computing with a passion for full-stack development and
-              database design. With over 3 years of professional experience at
-              Innodata Lanka, I've developed strong foundation in professional
-              communication, problem-solving skills and a collaborative mindset.
+              I'm BIT graduate at the University of Colombo School of Computing
+              with a passion for full-stack development and database design.
+              With over 3 years of professional experience at Innodata Lanka,
+              I've developed strong foundation in professional communication,
+              problem-solving skills and a collaborative mindset.
             </p>
             <p className="text-muted-foreground">
               I'm passionate about building scalable, user-focused solutions
